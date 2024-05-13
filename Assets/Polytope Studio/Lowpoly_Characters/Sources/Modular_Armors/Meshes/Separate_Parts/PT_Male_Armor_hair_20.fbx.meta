@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 12ba2783c9682a2469c6141eefa300ee
 ModelImporter:
-  serializedVersion: 20300
+  serializedVersion: 22200
   internalIDToNameTable: []
   externalObjects:
   - first:
@@ -19,6 +19,7 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
     motionNodeName: 
     rigImportErrors: 
     rigImportWarnings: 
@@ -44,10 +45,12 @@ ModelImporter:
     addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
+    importPhysicalCameras: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    nodeNameCollisionStrategy: 0
     fileIdsGeneration: 2
     swapUVChannels: 0
     generateSecondaryUV: 0
@@ -59,6 +62,7 @@ ModelImporter:
     skinWeightsMode: 0
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
+    optimizeBones: 1
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
@@ -69,6 +73,7 @@ ModelImporter:
     secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
+    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -639,16 +644,6 @@ ModelImporter:
       position: {x: -0, y: 1.03, z: 0}
       rotation: {x: 0.47708434, y: -0.5219111, z: -0.4770837, w: 0.5219104}
       scale: {x: 1, y: 1, z: 1}
-    - name: PT_Second_Weapon_slot
-      parentName: PT_Hips
-      position: {x: 0.07120461, y: -0.0005602192, z: 0.21549243}
-      rotation: {x: -0.15457378, y: 0.07217636, z: 0.5003036, w: 0.84887797}
-      scale: {x: 1, y: 1, z: 1}
-    - name: PT_Weapon_slot
-      parentName: PT_Hips
-      position: {x: 0.05407987, y: 0.055287667, z: -0.18239826}
-      rotation: {x: 0.16285995, y: -0.08505977, z: 0.51212955, w: 0.8390261}
-      scale: {x: 1, y: 1, z: 1}
     - name: PT_Left_Accessories_slot
       parentName: PT_Hips
       position: {x: 0.014808706, y: -0.05948243, z: 0.17047378}
@@ -658,6 +653,16 @@ ModelImporter:
       parentName: PT_Hips
       position: {x: 0.023923583, y: -0.040698297, z: -0.14666727}
       rotation: {x: -0.59063107, y: 0.51343626, z: 0.33855677, w: 0.5224151}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Second_Weapon_slot
+      parentName: PT_Hips
+      position: {x: 0.07120461, y: -0.0005602192, z: 0.21549243}
+      rotation: {x: -0.15457378, y: 0.07217636, z: 0.5003036, w: 0.84887797}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Weapon_slot
+      parentName: PT_Hips
+      position: {x: 0.05407987, y: 0.055287667, z: -0.18239826}
+      rotation: {x: 0.16285995, y: -0.08505977, z: 0.51212955, w: 0.8390261}
       scale: {x: 1, y: 1, z: 1}
     - name: PT_Spine
       parentName: PT_Hips
@@ -709,15 +714,15 @@ ModelImporter:
       position: {x: -0.26228172, y: -2.3092638e-16, z: 1.5543122e-16}
       rotation: {x: -0.005459787, y: 0.10916366, z: -0.05051103, w: 0.9927246}
       scale: {x: 1, y: 1, z: 1}
-    - name: PT_Left_Hand_Weapon_slot
-      parentName: PT_LeftHand
-      position: {x: -0.09205736, y: -0.03309289, z: -0.027779648}
-      rotation: {x: -0.7322771, y: -0.1771904, z: -0.057305418, w: 0.65504956}
-      scale: {x: 1, y: 1, z: 1}
     - name: PT_Left_Hand_Shield_slot
       parentName: PT_LeftHand
       position: {x: -0.08262854, y: -0.027939107, z: -0.024990112}
       rotation: {x: -0.2200834, y: 0.66038984, z: 0.716275, w: -0.048977084}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Left_Hand_Weapon_slot
+      parentName: PT_LeftHand
+      position: {x: -0.09205736, y: -0.03309289, z: -0.027779648}
+      rotation: {x: -0.7322771, y: -0.1771904, z: -0.057305418, w: 0.65504956}
       scale: {x: 1, y: 1, z: 1}
     - name: PT_LeftHandIndex1
       parentName: PT_LeftHand
@@ -1092,6 +1097,7 @@ ModelImporter:
   humanoidOversampling: 1
   avatarSetup: 2
   addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  importBlendShapeDeformPercent: 0
   remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
