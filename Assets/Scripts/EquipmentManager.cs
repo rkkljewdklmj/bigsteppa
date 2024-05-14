@@ -93,6 +93,7 @@ public class EquipmentManager : MonoBehaviour
         }
         return oldItem;
     }
+    
 
     // Unequip all items
     public void UnequipAll()

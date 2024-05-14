@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 066dbde51e011694ca419abdbc2d33a3, type: 3}
-  m_Name: Helmet of Wrath
+  m_Name: LegPlate
   m_EditorClassIdentifier: 
-  name: Helmet of Wrath
-  icon: {fileID: 21300000, guid: 90540a57950da3640939d2cb3466c334, type: 3}
+  name: LegPlate
+  icon: {fileID: 21300000, guid: 51237c9ea6ac1f847ba926ec0cfa2e35, type: 3}
   isDefaultItem: 0
-  equipSlot: 0
-  armorModifier: 2
-  damageModifier: 1
-  mesh: {fileID: -7266871911200629225, guid: 80d27ac515a8dbf459212780052ae396, type: 3}
-  coveredMeshRegions: 
+  equipSlot: 2
+  armorModifier: 0
+  damageModifier: 0
+  mesh: {fileID: 1682743365312993753, guid: 418340b855076ff408a40e1998c22b96, type: 3}
+  coveredMeshRegions: 02000000
